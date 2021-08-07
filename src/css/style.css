@@ -35,7 +35,6 @@ div.main1{
     
 }
 .title__container{
-    
       float: left;
       margin: 332px 0px 0px 304px;
       color: #2c384a;
@@ -67,7 +66,6 @@ div.main2{
    background: url(../img/%D1%84%D0%BE%D1%82%D0%BA%D0%B01.png) 50% 100px/auto auto no-repeat , url(../img/%D0%A4%D0%BE%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9%20%D1%81%D0%BB%D0%BE%D0%B9.png) center/cover no-repeat;
 }
 .title__container1{
-    width: 1580px;
     margin-top: 110px;
     margin-bottom: 100px;
      text-align: center;    
@@ -112,7 +110,6 @@ div.main3{
     background: url(../img/%D0%BD%D0%BE%D1%83%D1%82.png) 325px 250px/auto auto no-repeat , url(../img/%D0%B7%D0%BD%D0%B0%D0%BA.png) 600px 250px/auto auto no-repeat , url(../img/%D1%80%D0%B0%D0%BA%D0%B5%D1%82%D0%B0.png) 875px 250px/auto auto no-repeat , url(../img/%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%BE%D1%84%D0%BE%D0%BD.png) 1200px 250px/auto auto no-repeat , url(../img/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0%20%D1%84%D0%BE%D0%BD%D0%B0.png) center/cover no-repeat;
 }
 .title__container2{
-    width: 1580px;
     margin-top: 110px;
     margin-bottom: 170px;
       text-align: center;   
@@ -153,7 +150,6 @@ div.main4{
     background: url(../img/%D1%84%D0%BE%D1%82%D0%BA%D0%B0.png) 50px 260px/auto 70% no-repeat;
  }
 .title__container3{
-    width: 1580px;
         margin-top: 100px;
     margin-bottom: 600px;
       text-align: center;   
@@ -206,7 +202,6 @@ div.main5{
     background: url(../img/%D0%A1%D0%BB%D0%BE%D0%B9%206.png) center/auto 100% no-repeat;
 }
 .title__container4{
-    width: 1580px;
        margin-top: 170px;
       margin-bottom: 150px;
       text-align: center;   
@@ -241,7 +236,6 @@ div.main6{
     background: url(../img/%D1%81%D0%BC%D0%B0%D0%B9%D0%BB.png) 360px 250px/auto auto no-repeat , url(../img/%D1%81%D0%BA%D0%BE%D0%B1%D0%BA%D0%B8.png) 630px 250px/auto auto no-repeat , url(../img/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0.png) 900px 250px/auto auto no-repeat , url(../img/%D0%BA%D1%83%D0%B1%D0%BE%D0%BA.png) 1170px 250px/auto auto no-repeat , url(../img/%D1%84%D0%BE%D0%BD.png) center/auto 100% no-repeat; 
 }
 .title__container5{ 
-    width: 1580px;
      margin-top: 100px;
     margin-bottom: 400px;
       text-align: center; 
@@ -308,7 +302,6 @@ div.main8{
     background: url(../img/%D0%B3%D0%B5%D0%BE.png) 490px 300px/auto auto no-repeat , url(../img/%D0%BA%D0%BE%D0%BD%D0%B2%D0%B5%D1%80%D1%82.png) 775px 300px/auto auto no-repeat , url(../img/%D1%82%D1%80%D1%83%D0%B1%D0%B0.png) 1065px 300px/auto auto no-repeat , url(../img/%D0%A4%D0%BE%D0%BD4.png) 0px 0px/100% 950px no-repeat;
 }
 .title__container7{
-    width: 1580px;
   float: left;
       margin-top: 100px;
     margin-bottom: 100px;
@@ -381,7 +374,6 @@ div.main8{
    width: 150px;
 }
 .title__container9 p{
-    width: 1580px;
     float: left;
     font-size: 16px;
     color: #ffffff;
