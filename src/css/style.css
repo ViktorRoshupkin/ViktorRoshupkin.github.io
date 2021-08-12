@@ -5,6 +5,7 @@ nav{
 width: 100%;
 height: 60px;
 background: #344051;
+    position: fixed;
 
 }
 .logo{
@@ -13,24 +14,34 @@ font-size: 16px;
 line-height: 60px;
 padding-left: 288px;
 float: left;
+    -webkit-animation: comming 2s ease;
+    -o-animation: comming 2s ease;
+    animation: comming 2s ease;
 }
-
+main{
+    width: 100%;
+    height: 100%;
+}
 .menu_item{
 float: left;
 padding-left: 332px;
+    
 }
-
-.menu_item div{
+.menu_item li{
 float: left;
 line-height: 60px;
 color: #fff;
 margin-right: 40px;
 font-size: 12px;
  text-transform: uppercase;
+    -webkit-animation: topshift 0.4s ease forwards;
+    -o-animation: topshift 0.4s ease forwards;
+    animation: topshift 0.4s ease forwards;
+    opacity: 0;
 }
-div.main1{
+.main{
     width: 100%;
-    height: calc(100% - 60px);
+    height: 100%;
     background: url(../img/%D0%9F%D0%B0%D1%80%D0%B5%D0%BD%D1%8C.png) 90% 100%/auto 85% no-repeat , url(../img/%D1%84%D0%BE%D0%BD.jpg) center/cover no-repeat;
     
 }
@@ -39,6 +50,13 @@ div.main1{
       margin: 332px 0px 0px 304px;
       color: #2c384a;
       text-align: center;
+    -webkit-animation: titlemove 1s ease forwards;
+    -o-animation: titlemove 1s ease forwards;
+    animation: titlemove 1s ease forwards;
+   -webkit-animation-delay: 2s;
+   -o-animation-delay: 2s;
+   animation-delay: 2s; 
+    opacity: 0;
 }
 .title__container h1{
       font-size: 44px;
@@ -61,15 +79,90 @@ div.main1{
     padding: 0px 16px;
     margin: 48px 14px 0px 14px;
 }
-div.main2{
+
+.menu_item li a{
+transition: all 0.1s;
+    color: white;
+    transform: scale(1);
+    display: inline-block;
+}
+.menu_item li a:visited{
+    color: white;
+}
+.menu_item li a:hover{
+    color: #d17700;
+   
+}
+.menu_item li a:active{
+     transform: scale(1.1);
+   
+}
+.title__container input{
+    transition: all 0.2s;
+    transform: scale(1);
+}
+.title__container input:hover{
+    background: #344051;
+    color: white;
+}
+
+.title__container input:active{
+    transform: scale(1.1);
+}
+@keyframes comming{
+0%{
+    opacity: 0;
+}
+100%{
+    opacity: 1;
+}
+}
+@keyframes topshift{
+    from{
+        opacity: 0;
+        margin-top: -80px;
+}
+    to{
+        opacity: 1;
+        margin-top: 0;
+    }    
+}
+.menu_item li:nth-child(2){
+    animation-delay: 0.4s;
+}
+.menu_item li:nth-child(3){
+    animation-delay: 0.8s;
+}
+.menu_item li:nth-child(4){
+    animation-delay: 1.2s;
+}
+.menu_item li:nth-child(5){
+    animation-delay: 1.6s;
+}
+.menu_item li:nth-child(6){
+    animation-delay: 2s;
+}
+@keyframes titlemove{
+     from{
+        opacity: 0;
+        margin-left: -500px;
+}
+    to{
+        opacity: 1;
+        margin-left: 304px;
+    }  
+}
+.main2{
    width: 100%;
+    height: 100%;
    background: url(../img/%D1%84%D0%BE%D1%82%D0%BA%D0%B01.png) 50% 100px/auto auto no-repeat , url(../img/%D0%A4%D0%BE%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9%20%D1%81%D0%BB%D0%BE%D0%B9.png) center/cover no-repeat;
 }
 .title__container1{
     margin-top: 110px;
     margin-bottom: 100px;
-     text-align: center;    
+     text-align: center;     
 }
+
 .title__container1 h3{  
    font-size: 28px;
     text-decoration: underline #d17700;
@@ -81,6 +174,10 @@ margin-left: 25%;
     font-size: 14px;
     width: 50%;
     text-align: start;
+    -webkit-animation: loremmove 1s ease forwards;
+    -o-animation: loremmove 1s ease forwards;
+    animation: loremmove 1s ease forwards;
+    opacity: 0;
 }
 
 .block2 p{
@@ -91,6 +188,10 @@ margin-left: 25%;
     margin-left: 25%;
      font-size: 14px;
     text-align: start;
+     -webkit-animation: loremmove 1s ease forwards;
+    -o-animation: loremmove 1s ease forwards;
+    animation: loremmove 1s ease forwards;
+    opacity: 0;
  }
 .title__container1 input{
     height: 35px;
@@ -104,7 +205,29 @@ margin-left: 25%;
     margin: 40px 0px 0px 0px;
     background: url(../img/%D0%B8%D0%BA%D0%BE%D0%BD%D0%BA%D0%B0.png) 5px 9px/auto auto no-repeat;
 }
-div.main3{
+.title__container1 h3{
+    transition: all 0.2s;
+    transform: rotate(0deg);
+}
+.title__container1 h3:hover{
+    transform: rotate(720deg);
+}
+.title__container1 h3:active{
+   color: black;
+    transform: rotate(-10deg);
+}
+
+@keyframes loremmove{
+     from{
+        opacity: 0;
+        margin-left: 800px;
+}
+    to{
+        opacity: 1;
+        margin-left: 25%;
+    }  
+}
+.main3{
    width: 100%;
     float: left;
     background: url(../img/%D0%BD%D0%BE%D1%83%D1%82.png) 325px 250px/auto auto no-repeat , url(../img/%D0%B7%D0%BD%D0%B0%D0%BA.png) 600px 250px/auto auto no-repeat , url(../img/%D1%80%D0%B0%D0%BA%D0%B5%D1%82%D0%B0.png) 875px 250px/auto auto no-repeat , url(../img/%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%BE%D1%84%D0%BE%D0%BD.png) 1200px 250px/auto auto no-repeat , url(../img/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0%20%D1%84%D0%BE%D0%BD%D0%B0.png) center/cover no-repeat;
@@ -112,7 +235,10 @@ div.main3{
 .title__container2{
     margin-top: 110px;
     margin-bottom: 170px;
-      text-align: center;   
+      text-align: center;  
+    -webkit-animation: col 2s ease forwards;
+    -o-animation: ;
+    animation: ;
 }
 .title__container2 h3{
      font-size: 28px;
@@ -142,9 +268,49 @@ div.main3{
     text-align: center;
     margin-right: 80px;
     font-size: 14px;
-}
+    -webkit-animation: loreminv 2.5s;
+    -o-animation: loreminv 2.5s;
+    animation: loreminv 2.5s;
    
-div.main4{
+}
+   .title__container2 h3{
+    transition: all 0.2s;
+    transform: skewX(40deg);
+}
+.title__container2 h3:hover{
+    transform: skewX(10deg);
+}
+.title__container2 h3:active{
+   color: black;
+    transform: skew(-40deg, 0deg);
+}
+
+@keyframes loreminv{
+     from{
+        opacity: 0;
+}
+    to{
+        opacity: 1;
+    }  
+}
+@keyframes col{
+    0%{
+        color: red;
+    }
+    25%{
+        color: orange;
+    }
+    50%{
+        color: green;
+    }
+    75%{
+        color: purple;
+    }
+    100%{
+        color: black;
+    }
+}
+.main4{
     width: 100%;
     float: left;
     background: url(../img/%D1%84%D0%BE%D1%82%D0%BA%D0%B0.png) 50px 260px/auto 70% no-repeat;
@@ -196,7 +362,7 @@ div.main4{
     margin-left: 350px;
     margin-top: 20px;
 }
-div.main5{
+.main5{
     width: 100%;
     float: left;
     background: url(../img/%D0%A1%D0%BB%D0%BE%D0%B9%206.png) center/auto 100% no-repeat;
@@ -230,11 +396,14 @@ div.main5{
     width: 100%;
     line-height: 25px;
 }
-div.main6{
+.main6{
     width: 100%;
     float: left;
+    
     background: url(../img/%D1%81%D0%BC%D0%B0%D0%B9%D0%BB.png) 360px 250px/auto auto no-repeat , url(../img/%D1%81%D0%BA%D0%BE%D0%B1%D0%BA%D0%B8.png) 630px 250px/auto auto no-repeat , url(../img/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0.png) 900px 250px/auto auto no-repeat , url(../img/%D0%BA%D1%83%D0%B1%D0%BE%D0%BA.png) 1170px 250px/auto auto no-repeat , url(../img/%D1%84%D0%BE%D0%BD.png) center/auto 100% no-repeat; 
+    background-attachment: fixed;
 }
+
 .title__container5{ 
      margin-top: 100px;
     margin-bottom: 400px;
@@ -267,7 +436,7 @@ float: left;
     margin-right: 8px;
     font-size: 16px;
 }
-div.main7{
+.main7{
     
     width: 100%;
     float: left;
@@ -296,8 +465,9 @@ margin-left: 25%;
     font-size: 14px;
     text-align: center;
 }
-div.main8{
+.main8{
     width: 100%;
+    
     float: left;
     background: url(../img/%D0%B3%D0%B5%D0%BE.png) 490px 300px/auto auto no-repeat , url(../img/%D0%BA%D0%BE%D0%BD%D0%B2%D0%B5%D1%80%D1%82.png) 775px 300px/auto auto no-repeat , url(../img/%D1%82%D1%80%D1%83%D0%B1%D0%B0.png) 1065px 300px/auto auto no-repeat , url(../img/%D0%A4%D0%BE%D0%BD4.png) 0px 0px/100% 950px no-repeat;
 }
@@ -382,7 +552,7 @@ div.main8{
     width: 800px;
     text-align: center
 }
-div.main9{
+.main9{
     width: 100%;
     float: left;
     background: url(../img/%D0%9A%D0%B0%D1%80%D1%82%D0%B0%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.png) 0px 200px/auto 330px no-repeat;  
@@ -395,6 +565,7 @@ background: #344051;
       margin-top: 520px;
     margin-bottom: -100px;
      text-align: center; 
+/*       
 }
 .title__container10 p{
     float: left;
