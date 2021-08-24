@@ -442,13 +442,15 @@ margin-left: 25%;
     margin-top: 20px;
 }
 .menu_item3 a{
+	
 	text-decoration: underline;
 }
 .menu_item3 a:hover{
 	color: orange;
 }
-.menu_item3 a:visited{
-	color: gray;
+
+.menu_item3 a:active{
+	color: blu;
 }
 .title__container3 input{
     transition: all 0.2s;
@@ -679,9 +681,6 @@ margin-left: 25%;
 }
 .menu_item9 a:hover{
 	color: orange;
-}
-.menu_item9 a:visited{
-	color: gray;
 }
 .main9{
     width: 100%;
