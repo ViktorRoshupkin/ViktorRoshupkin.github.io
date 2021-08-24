@@ -380,6 +380,21 @@ margin-left: 25%;
 .menu_item3 a:hover{
 	color: orange;
 }
+.menu_item3 a:visited{
+	color: gray;
+}
+.title__container3 input{
+    transition: all 0.2s;
+    transform: scale(1);
+}
+.title__container3 input:hover{
+    background: orange;
+    color: white;
+}
+
+.title__container3 input:active{
+    transform: scale(1.1);
+}
 .main5{
     width: 100%;
     float: left;
@@ -414,18 +429,7 @@ margin-left: 25%;
     width: 100%;
     line-height: 25px;
 }
-.title__container3 input{
-    transition: all 0.2s;
-    transform: scale(1);
-}
-.title__container3 input:hover{
-    background: orange;
-    color: white;
-}
 
-.title__container3 input:active{
-    transform: scale(1.1);
-}
 .main6{
     width: 100%;
     float: left;
@@ -608,6 +612,9 @@ margin-left: 25%;
 }
 .menu_item9 a:hover{
 	color: orange;
+}
+.menu_item9 a:visited{
+	color: gray;
 }
 .main9{
     width: 100%;
