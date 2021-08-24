@@ -216,6 +216,18 @@ margin-left: 25%;
    color: black;
     transform: rotate(-10deg);
 }
+.title__container1 input{
+    transition: all 0.2s;
+    transform: scale(1);
+}
+.title__container1 input:hover{
+    background: #344051;
+    color: white;
+}
+
+.title__container1 input:active{
+    transform: scale(1.1);
+}
 
 @keyframes loremmove{
      from{
@@ -362,6 +374,12 @@ margin-left: 25%;
     margin-left: 350px;
     margin-top: 20px;
 }
+.menu_item3 a{
+	text-decoration: underline;
+}
+.menu_item3 a:hover{
+	color: orange;
+}
 .main5{
     width: 100%;
     float: left;
@@ -395,6 +413,18 @@ margin-left: 25%;
     text-align: start;
     width: 100%;
     line-height: 25px;
+}
+.title__container3 input{
+    transition: all 0.2s;
+    transform: scale(1);
+}
+.title__container3 input:hover{
+    background: orange;
+    color: white;
+}
+
+.title__container3 input:active{
+    transform: scale(1.1);
 }
 .main6{
     width: 100%;
@@ -500,6 +530,10 @@ margin-left: 25%;
     font-size: 12px;
     margin-left: 430px;
 }
+.menu_item9 a{
+   color: #ffffff;
+
+}
 .menu_item10 p{
    float: left;
     color: #ffffff;
@@ -552,6 +586,29 @@ margin-left: 25%;
     width: 800px;
     text-align: center
 }
+.menu_item9 a{
+	color: white;
+	text-decoration: underline;
+	
+}
+.title__container7 input{
+    transition: all 0.2s;
+    transform: scale(1);
+}
+.title__container7 input:hover{
+    background: green;
+    color: white;
+}
+
+.title__container7 input:active{
+    transform: scale(1.1);
+}
+.menu_item9 a:active{
+	color: orange;
+}
+.menu_item9 a:hover{
+	color: orange;
+}
 .main9{
     width: 100%;
     float: left;
@@ -564,8 +621,7 @@ height: 100px;
 background: #344051;
       margin-top: 520px;
     margin-bottom: -100px;
-     text-align: center; 
-/*       
+     text-align: center;       
 }
 .title__container10 p{
     float: left;
@@ -575,5 +631,4 @@ text-align: center;
 padding-left: 850px;
 float: left;
     margin-top: -30px;
-  
-}
+ }
